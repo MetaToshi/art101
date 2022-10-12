@@ -1,0 +1,45 @@
+body {
+  background-color: #381D2A ;
+}
+
+
+h1 {
+  color: #381D2A;
+  font-size: 250%;
+  font-family: monospace;
+}
+
+h2 {
+  color: #381D2A;
+  font-size: 200%;
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
+  font-size: 100%;
+  text-indent: 20px;
+  margin-left: auto;
+}
+
+#introduction {
+  background-color: #DDCDF1;
+  border-color: #321B49;
+  width: 1000px;
+  min-height: 300px;
+  padding: 10px;
+  margin: auto;
+  border: solid 5px #321B49;
+  font-size: 20px;
+}
+
+#content {
+  background-color: #DDCDF1;
+  border-color: #321B49;
+  width: 1000px;
+  min-height: 300px;
+  padding: 10px;
+  margin: auto;
+  border: solid 5px #321B49;
+  font-size: 20px;
+}
