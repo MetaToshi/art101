@@ -1,0 +1,25 @@
+body {
+  background-color: #381D2A ;
+  border: solid; 2px; white-space: normal;
+  padding: 10px;
+}
+
+
+h1, h2, h3 {
+  color: #ebdcfc;
+  font-family: monospace;
+}
+
+
+p {
+  font-family: monospace;
+  font-size: 100%;
+  text-indent: 20px;
+  margin: auto;
+  color: white;
+  padding: 10px;
+}
+
+.output {
+  color: white;
+}
