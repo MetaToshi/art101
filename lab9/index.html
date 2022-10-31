@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Lab 9 -JavaScript for the Web</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src="js/lab.js" defer></script>
+</head>
+
+<body>
+	<h1>Lab 9: Javascript for the Web</h1>
+	<p> This Lab experiments with Javascript elements.</p>
+
+	<h2>Challenges</h2>
+	<div>
+		<p> We only encountered a small issue with the JS file not updating correctly, but we soon found the error (typo). </p>
+	</div>
+
+	<h2> Problems</h2>
+	<div>
+		<p> There was a problem with the font not changing, which we predicted was because of the CSS file overriding the JS file.
+			In the end, we just went with the CSS font. </p>
+	</div>
+
+	<h2> Results </h2>
+	<div>
+		<p>Here are the results of our JS elements:</p>
+	</div>
+	<div id="output"></div>
+
+	<p>Encoding associated with this document:</p>
+	<p id="code"></p>
+
+	<!--Get the character encoding for a document-->
+	<script>
+	let encoding = document.characterSet;
+	document.getElementById("code").innerHTML = encoding;
+
+    // write()
+    document.write("Hello World!")
+    document.write("<h2>Hello World!</h2><p>Have a nice day!</p>")
+  </script>
+
+    	<!--Open() and Close()-->
+  <button onclick="myFunction()">Try it</button>
+  <script>
+    function myFunction() {
+      document.open();
+      document.write("<h1>Hello! Welcome to this other page!</h1><p>hehehehe</p>");
+      document.close();
+}
+  </script>
+
+</body>
+
+</html>
