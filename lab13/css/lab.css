@@ -1,0 +1,58 @@
+body {
+  border: solid;
+  2px;
+  white-space: normal;
+  padding: 10px;
+  animation: colorchange 5s ease-in-out infinite;
+}
+
+h1, h2, h3 {
+  color: salmon;
+  animation: 5s fadeIn;
+}
+
+p {
+  font-size: 100%;
+  text-indent: 20px;
+  margin: auto;
+  color: salmon;
+  padding: 10px;
+  animation: 5s fadeIn;
+}
+
+.output {
+  color: salmon;
+  animation: 5s fadeIn;
+}
+
+#output {
+  color: salmon;
+  animation: 5s fadeIn;
+}
+
+.input {
+  color: salmon;
+  animation: 5s fadeIn;
+}
+
+@keyframes colorchange {
+
+  /* https://stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has */
+  10% {
+    background-color: #e0e0d1
+  }
+
+  50% {
+    background-color: #030b3b
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
